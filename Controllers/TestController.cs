@@ -21,9 +21,7 @@ namespace lab1.Controllers
             {
                 myArray[x] = rand.Next(20);
             }
-            // int[] nums = new int[5];
-            // Random rnd = new Random();
-            // int num = rnd.Next();
+
             return Ok(myArray);
         }
     }
